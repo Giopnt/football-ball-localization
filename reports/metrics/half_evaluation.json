@@ -1,0 +1,67 @@
+{
+  "purpose": "Diagnostic half-localization audit; mixed val/test subset",
+  "selected_images": 12,
+  "skipped": [],
+  "weights": "runs/ball_yolo11n_1280_v1/weights/best.pt",
+  "settings": {
+    "device": "mps",
+    "image_size": 1280,
+    "candidate_threshold": 0.05,
+    "decision_threshold": 0.332,
+    "match_iou": 0.5
+  },
+  "overall": {
+    "images": 12,
+    "correct_half": 6,
+    "wrong_half": 0,
+    "unknown": 6,
+    "answer_coverage": 0.5,
+    "half_accuracy_when_answered": 1.0,
+    "strict_successes": 6,
+    "strict_success_rate": 0.5,
+    "correct_half_without_ball_match": 0,
+    "geometry_matches_with_gt_center": 12,
+    "status_counts": {
+      "ok": 6,
+      "multiple_candidates": 2,
+      "not_detected": 1,
+      "low_confidence": 3
+    }
+  },
+  "by_source_split": {
+    "test": {
+      "images": 3,
+      "correct_half": 2,
+      "wrong_half": 0,
+      "unknown": 1,
+      "answer_coverage": 0.6666666666666666,
+      "half_accuracy_when_answered": 1.0,
+      "strict_successes": 2,
+      "strict_success_rate": 0.6666666666666666,
+      "correct_half_without_ball_match": 0,
+      "geometry_matches_with_gt_center": 3,
+      "status_counts": {
+        "ok": 2,
+        "multiple_candidates": 1
+      }
+    },
+    "val": {
+      "images": 9,
+      "correct_half": 4,
+      "wrong_half": 0,
+      "unknown": 5,
+      "answer_coverage": 0.4444444444444444,
+      "half_accuracy_when_answered": 1.0,
+      "strict_successes": 4,
+      "strict_success_rate": 0.4444444444444444,
+      "correct_half_without_ball_match": 0,
+      "geometry_matches_with_gt_center": 9,
+      "status_counts": {
+        "ok": 4,
+        "not_detected": 1,
+        "low_confidence": 3,
+        "multiple_candidates": 1
+      }
+    }
+  }
+}

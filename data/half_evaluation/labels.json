@@ -1,0 +1,110 @@
+{
+  "case_01": {
+    "image": "data/raw/football_ball_v1/test/images/0bfacc_0_mp4-0043_jpg.rf.88297738ecfeac10556209f169d02513.jpg",
+    "ground_truth_ball_center": [
+      1183.66,
+      355.13
+    ],
+    "status": "labeled",
+    "expected_half": "team_b_half"
+  },
+  "case_02": {
+    "image": "data/raw/football_ball_v1/train/images/0bfacc_0_mp4-0005_jpg.rf.824492f2a6b323aa4f4598e7c9123f52.jpg",
+    "ground_truth_ball_center": [
+      1456.57,
+      624.84
+    ],
+    "status": "labeled",
+    "expected_half": "team_b_half"
+  },
+  "case_03": {
+    "image": "data/raw/football_ball_v1/train/images/0bfacc_0_mp4-0089_jpg.rf.290fab789eb936232544530f6e1efbfd.jpg",
+    "ground_truth_ball_center": [
+      1588.8,
+      683.68
+    ],
+    "status": "labeled",
+    "expected_half": "team_b_half"
+  },
+  "case_04": {
+    "image": "data/raw/football_ball_v1/train/images/0a2d9b_0_mp4-0023_jpg.rf.5d2aa7e3d5f7fe8b7358ae48dadc20a9.jpg",
+    "ground_truth_ball_center": [
+      459.83,
+      404.88
+    ],
+    "status": "labeled",
+    "expected_half": "team_a_half"
+  },
+  "case_05": {
+    "image": "data/raw/football_ball_v1/train/images/0a2d9b_0_mp4-0026_jpg.rf.3c9470b1babf12d765eb05c68e8d77b8.jpg",
+    "ground_truth_ball_center": [
+      447.52,
+      394.32
+    ],
+    "status": "labeled",
+    "expected_half": "team_a_half"
+  },
+  "case_06": {
+    "image": "data/raw/football_ball_v1/train/images/0a2d9b_0_mp4-0031_jpg.rf.7882b29611b04efcbeffadae7f636ad6.jpg",
+    "ground_truth_ball_center": [
+      355.25,
+      441.28
+    ],
+    "status": "labeled",
+    "expected_half": "team_a_half"
+  },
+  "case_07": {
+    "image": "data/raw/football_ball_v1/train/images/4b770a_0_mp4-0005_jpg.rf.63d7028d39b278a770808505b5ec556e.jpg",
+    "ground_truth_ball_center": [
+      1397.61,
+      378.78
+    ],
+    "status": "labeled",
+    "expected_half": "team_b_half"
+  },
+  "case_08": {
+    "image": "data/raw/football_ball_v1/train/images/4b770a_0_mp4-0012_jpg.rf.66b8ef186bf8b06ef6b81ac2d9adca50.jpg",
+    "ground_truth_ball_center": [
+      1187.57,
+      321.73
+    ],
+    "status": "labeled",
+    "expected_half": "team_b_half"
+  },
+  "case_09": {
+    "image": "data/raw/football_ball_v1/train/images/4b770a_0_mp4-0083_jpg.rf.6063068a462873e873a1a07768145d1e.jpg",
+    "ground_truth_ball_center": [
+      1474.93,
+      744.46
+    ],
+    "status": "labeled",
+    "expected_half": "team_b_half"
+  },
+  "case_10": {
+    "image": "data/raw/football_ball_v1/train/images/798b45_0_mp4-0004_jpg.rf.36ff69d804422330af9a6d5fd1251d7e.jpg",
+    "ground_truth_ball_center": [
+      773.76,
+      309.73
+    ],
+    "status": "labeled",
+    "expected_half": "team_b_half"
+  },
+  "case_11": {
+    "image": "data/raw/football_ball_v1/train/images/798b45_0_mp4-0057_jpg.rf.6436975ca43baa97e19ad692d5e31057.jpg",
+    "ground_truth_ball_center": [
+      553.84,
+      823.14
+    ],
+    "status": "labeled",
+    "expected_half": "team_a_half"
+  },
+  "case_12": {
+    "image": "data/raw/football_ball_v1/train/images/798b45_0_mp4-0085_jpg.rf.5e20eade48b52e338493259b7b194c2a.jpg",
+    "ground_truth_ball_center": [
+      565.22,
+      307.58
+    ],
+    "status": "labeled",
+    "expected_half": "team_a_half"
+  }
+}

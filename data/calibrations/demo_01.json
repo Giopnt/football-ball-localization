@@ -1,0 +1,24 @@
+{
+  "image": "data/samples/demo_01.jpg",
+  "image_size": [
+    2940,
+    1664
+  ],
+  "line_start": [
+    2110.57,
+    643.14
+  ],
+  "line_end": [
+    2092.71,
+    1653.79
+  ],
+  "team_a_point": [
+    467.03,
+    934.09
+  ],
+  "margin_px": 5,
+  "team_names": {
+    "A": null,
+    "B": null
+  }
+}

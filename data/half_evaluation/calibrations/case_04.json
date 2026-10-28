@@ -1,0 +1,24 @@
+{
+  "image": "data/raw/football_ball_v1/train/images/0a2d9b_0_mp4-0023_jpg.rf.5d2aa7e3d5f7fe8b7358ae48dadc20a9.jpg",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "line_start": [
+    1185.0,
+    295.0
+  ],
+  "line_end": [
+    1253.33,
+    863.33
+  ],
+  "team_a_point": [
+    730.0,
+    530.0
+  ],
+  "margin_px": 5,
+  "team_names": {
+    "A": null,
+    "B": null
+  }
+}

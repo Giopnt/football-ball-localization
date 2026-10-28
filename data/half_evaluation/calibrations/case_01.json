@@ -1,0 +1,24 @@
+{
+  "image": "data/raw/football_ball_v1/test/images/0bfacc_0_mp4-0043_jpg.rf.88297738ecfeac10556209f169d02513.jpg",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "line_start": [
+    1168.33,
+    368.33
+  ],
+  "line_end": [
+    1058.33,
+    868.33
+  ],
+  "team_a_point": [
+    448.33,
+    436.67
+  ],
+  "margin_px": 5,
+  "team_names": {
+    "A": null,
+    "B": null
+  }
+}

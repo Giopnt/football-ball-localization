@@ -1,0 +1,11 @@
+{
+  "file": "models/yolo11n.pt",
+  "model": "Ultralytics YOLO11n",
+  "pretrained_dataset": "COCO",
+  "source_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt",
+  "size_bytes": 5613764,
+  "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "download_date": "2026-10-24",
+  "license_information": "https://www.ultralytics.com/license",
+  "fine_tuned_by_this_project": false
+}

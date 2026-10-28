@@ -1,0 +1,40 @@
+{
+  "project": "football-ball-detection",
+  "author": "Roboflow",
+  "project_url": "https://universe.roboflow.com/roboflow-jvuqo/football-ball-detection-rejhg",
+  "license_listed_by_publisher": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "download_date": "2026-10-24",
+  "modifications": "None; original JPEG bytes preserved.",
+  "purpose": "Development-only exploratory inference. Not a held-out test set.",
+  "ground_truth_annotations_downloaded": false,
+  "images": [
+    {
+      "file": "sample_01.jpg",
+      "source_image_id": "01P6waBpqIumtawQfKkb",
+      "source_url": "https://source.roboflow.com/GGqN5h3Ag5Msh1nOv8tjZvWDZpv1/01P6waBpqIumtawQfKkb/original.jpg",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 349859,
+      "sha256": "d4de773418f2d96857ec3e0b4886108dd2864718f57ddd7cda5455f3516873a2"
+    },
+    {
+      "file": "sample_02.jpg",
+      "source_image_id": "03RZF7li6HSA6qVUuEvk",
+      "source_url": "https://source.roboflow.com/GGqN5h3Ag5Msh1nOv8tjZvWDZpv1/03RZF7li6HSA6qVUuEvk/original.jpg",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 445196,
+      "sha256": "86440063d6ed7136cb01544d8796d7fd60347baaa053eb1860985f0df6fc8c2f"
+    },
+    {
+      "file": "sample_03.jpg",
+      "source_image_id": "03SUL3OZ4ZVXljo1ZBnc",
+      "source_url": "https://source.roboflow.com/GGqN5h3Ag5Msh1nOv8tjZvWDZpv1/03SUL3OZ4ZVXljo1ZBnc/original.jpg",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 400323,
+      "sha256": "37d85eb4c15e8b1fc9cfd8d1e36177ab345678bbbd77ccf01067357577ef8ecb"
+    }
+  ]
+}

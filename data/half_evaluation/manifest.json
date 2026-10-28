@@ -1,0 +1,79 @@
+{
+  "purpose": "Diagnostic half-localization audit; mixed val/test subset",
+  "seed": 42,
+  "per_clip": 3,
+  "cases": [
+    {
+      "id": "case_01",
+      "image": "data/raw/football_ball_v1/test/images/0bfacc_0_mp4-0043_jpg.rf.88297738ecfeac10556209f169d02513.jpg",
+      "source_split": "test",
+      "source_clip": "0bfacc"
+    },
+    {
+      "id": "case_02",
+      "image": "data/raw/football_ball_v1/train/images/0bfacc_0_mp4-0005_jpg.rf.824492f2a6b323aa4f4598e7c9123f52.jpg",
+      "source_split": "test",
+      "source_clip": "0bfacc"
+    },
+    {
+      "id": "case_03",
+      "image": "data/raw/football_ball_v1/train/images/0bfacc_0_mp4-0089_jpg.rf.290fab789eb936232544530f6e1efbfd.jpg",
+      "source_split": "test",
+      "source_clip": "0bfacc"
+    },
+    {
+      "id": "case_04",
+      "image": "data/raw/football_ball_v1/train/images/0a2d9b_0_mp4-0023_jpg.rf.5d2aa7e3d5f7fe8b7358ae48dadc20a9.jpg",
+      "source_split": "val",
+      "source_clip": "0a2d9b"
+    },
+    {
+      "id": "case_05",
+      "image": "data/raw/football_ball_v1/train/images/0a2d9b_0_mp4-0026_jpg.rf.3c9470b1babf12d765eb05c68e8d77b8.jpg",
+      "source_split": "val",
+      "source_clip": "0a2d9b"
+    },
+    {
+      "id": "case_06",
+      "image": "data/raw/football_ball_v1/train/images/0a2d9b_0_mp4-0031_jpg.rf.7882b29611b04efcbeffadae7f636ad6.jpg",
+      "source_split": "val",
+      "source_clip": "0a2d9b"
+    },
+    {
+      "id": "case_07",
+      "image": "data/raw/football_ball_v1/train/images/4b770a_0_mp4-0005_jpg.rf.63d7028d39b278a770808505b5ec556e.jpg",
+      "source_split": "val",
+      "source_clip": "4b770a"
+    },
+    {
+      "id": "case_08",
+      "image": "data/raw/football_ball_v1/train/images/4b770a_0_mp4-0012_jpg.rf.66b8ef186bf8b06ef6b81ac2d9adca50.jpg",
+      "source_split": "val",
+      "source_clip": "4b770a"
+    },
+    {
+      "id": "case_09",
+      "image": "data/raw/football_ball_v1/train/images/4b770a_0_mp4-0083_jpg.rf.6063068a462873e873a1a07768145d1e.jpg",
+      "source_split": "val",
+      "source_clip": "4b770a"
+    },
+    {
+      "id": "case_10",
+      "image": "data/raw/football_ball_v1/train/images/798b45_0_mp4-0004_jpg.rf.36ff69d804422330af9a6d5fd1251d7e.jpg",
+      "source_split": "val",
+      "source_clip": "798b45"
+    },
+    {
+      "id": "case_11",
+      "image": "data/raw/football_ball_v1/train/images/798b45_0_mp4-0057_jpg.rf.6436975ca43baa97e19ad692d5e31057.jpg",
+      "source_split": "val",
+      "source_clip": "798b45"
+    },
+    {
+      "id": "case_12",
+      "image": "data/raw/football_ball_v1/train/images/798b45_0_mp4-0085_jpg.rf.5e20eade48b52e338493259b7b194c2a.jpg",
+      "source_split": "val",
+      "source_clip": "798b45"
+    }
+  ]
+}

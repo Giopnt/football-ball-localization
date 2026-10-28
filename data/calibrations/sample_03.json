@@ -1,0 +1,29 @@
+{
+  "image": "data/samples/sample_03.jpg",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "line_start": [
+    886.67,
+    375.0
+  ],
+  "line_end": [
+    963.33,
+    880.0
+  ],
+  "team_a_point": [
+    285.0,
+    446.67
+  ],
+  "margin_px": 5,
+  "team_names": {
+    "A": null,
+    "B": null
+  },
+  "manual_ball_center": [
+    976.67,
+    391.67
+  ],
+  "manual_result": "team_b_half"
+}

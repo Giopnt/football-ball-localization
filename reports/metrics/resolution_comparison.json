@@ -1,0 +1,31 @@
+{
+  "weights": "runs/ball_yolo11n_1280_v1/weights/best.pt",
+  "settings": {
+    "data": "data/processed/football_ball_v1/data.yaml",
+    "split": "val",
+    "batch": 2,
+    "device": "mps",
+    "workers": 0,
+    "half": false,
+    "conf": 0.001,
+    "iou": 0.7,
+    "plots": true,
+    "verbose": false
+  },
+  "results": [
+    {
+      "image_size": 1280,
+      "precision": 0.8168935833763391,
+      "recall": 0.5992063492063492,
+      "mAP50": 0.7337236675090413,
+      "mAP50_95": 0.42298961277134284
+    },
+    {
+      "image_size": 1600,
+      "precision": 0.7832314173673659,
+      "recall": 0.6388888888888888,
+      "mAP50": 0.7581658468153858,
+      "mAP50_95": 0.3927378793215481
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "ultralytics_version": "8.3.220",
+  "validation_images": 252,
+  "settings": {
+    "data": "data/processed/football_ball_v1/data.yaml",
+    "split": "val",
+    "imgsz": 1280,
+    "batch": 2,
+    "device": "mps",
+    "workers": 0,
+    "half": false,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "classes": null,
+    "single_cls": false,
+    "agnostic_nms": false,
+    "rect": true,
+    "augment": false,
+    "cache": false,
+    "plots": true,
+    "save_json": false,
+    "save_txt": false,
+    "verbose": false
+  },
+  "evaluation_class": {
+    "0": "ball"
+  },
+  "results": {
+    "pretrained": {
+      "weights": "models/yolo11n.pt",
+      "source_ball_class_id": 32,
+      "precision_at_best_f1": 0.656078734855635,
+      "recall_at_best_f1": 0.2896825396825397,
+      "mAP50": 0.35787078454366683,
+      "mAP50_95": 0.12367748306809893
+    },
+    "fine_tuned": {
+      "weights": "runs/ball_yolo11n_1280_v1/weights/best.pt",
+      "source_ball_class_id": 0,
+      "precision_at_best_f1": 0.8168935833763391,
+      "recall_at_best_f1": 0.5992063492063492,
+      "mAP50": 0.7337236675090413,
+      "mAP50_95": 0.42298961277134284
+    }
+  },
+  "improvement_percentage_points": {
+    "mAP50": 37.58528829653744,
+    "mAP50_95": 29.93121297032439
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "split": "test",
+  "images": 91,
+  "weights": "runs/ball_yolo11n_1280_v1/weights/best.pt",
+  "device": "mps",
+  "image_size": 1280,
+  "candidate_threshold": 0.05,
+  "decision_threshold": 0.332,
+  "match_iou": 0.5,
+  "nms_iou": 0.7,
+  "detection": {
+    "tp": 64,
+    "fp": 20,
+    "fn": 27,
+    "precision": 0.7619047619047619,
+    "recall": 0.7032967032967034,
+    "f1": 0.7314285714285714
+  },
+  "selection_before_half_check": {
+    "counts": {
+      "single_correct": 52,
+      "single_incorrect": 4,
+      "multiple_candidates": 13,
+      "low_confidence": 20,
+      "not_detected": 2
+    },
+    "single_candidate_rate": 0.6153846153846154,
+    "correct_single_candidate_rate": 0.5714285714285714,
+    "precision_among_single_candidates": 0.9285714285714286
+  }
+}

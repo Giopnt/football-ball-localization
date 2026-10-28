@@ -1,0 +1,6 @@
+torch==2.11.0
+torchvision==0.26.0
+ultralytics==8.3.220
+opencv-python==5.0.0.93
+PyYAML==6.0.3
+streamlit==1.66.1
