@@ -1,7 +1,8 @@
-"""შეამოწმე PyTorch და პატარა გამოთვლა CPU-ზე ან Apple GPU-ზე.
+"""
+შეამოწმე PyTorch და პატარა გამოთვლა CPU-ზე ან Apple GPU-ზე.
 
 გაშვება: .venv/bin/python check_torch.py
-ეს არ არის მოდელის inference, სწავლება ან სიჩქარის გაზომვა.
+
 """
 
 import torch

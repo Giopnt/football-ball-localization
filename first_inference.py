@@ -1,7 +1,8 @@
-"""პირველი inference: COCO-ზე pretrained YOLO11n და სამი ფეხბურთის ფოტო.
+"""
+პირველი inference: COCO-ზე pretrained YOLO11n და სამი ფეხბურთის ფოტო.
 
 გაშვება: .venv/bin/python first_inference.py
-ჯერ არ ვსწავლობთ მოდელს და არ ვადგენთ გუნდის ნახევარს.
+
 """
 
 import os

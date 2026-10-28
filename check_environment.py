@@ -1,10 +1,3 @@
-"""აჩვენე Python გარემოს ძირითადი ინფორმაცია.
-
-გაუშვი პროექტის საქაღალდიდან:
-    python check_environment.py
-
-აქ მხოლოდ Python-ის სტანდარტული ბიბლიოთეკა გვჭირდება.
-"""
 
 import platform
 import sys
