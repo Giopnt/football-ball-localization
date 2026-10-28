@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-DEST = ROOT / "dist" / "football-ball-demo-v3"
+DEST = ROOT / "dist" / "football-ball-demo-v4"
 
 MODEL = Path("runs/ball_yolo11n_1280_v1/weights/best.pt")
 
